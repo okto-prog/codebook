@@ -1,26 +1,30 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  BÁSICO  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                    OKTOPLUS CODEBOOK - TEMPLATE BASE                    %
+%                                                                         %
+% Diretrizes de Uso:                                                      %
+% 1. Crie o arquivo .cpp na pasta correspondente.                         %
+% 2. Cria a seção % \subsection{Titulo da Seção} e use                    %
+%    \lstinputlisting{pasta/arquivo.cpp}                                  %
+% 3. Para arquivos com espaço no nome, use aspas simples:                 %
+%    \lstinputlisting{pasta/'Nome Com Espaco.cpp'}                        %
+%                                                                         %
+% OBS.: Seções comentadas são sugestões de implementações.                %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \setcounter{page}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Templates}
 
-\subsection{Código padrão (template)}
-\lstinputlisting{base/base.cpp}
+% \subsection{Código Padrão (Template)}
+% \lstinputlisting{base/base.cpp}
 
-\subsection{Código padrão com casos teste (template)}
-\lstinputlisting{base/casos_teste.cpp}
-
-\subsection{Init script}
-\lstinputlisting{base/init.sh}
-
-\subsection{Compile script}
-\lstinputlisting{base/compile.sh}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  FLUXO  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Fluxo e Emparelhamento}
+% \subsection{Dinic (Fluxo Máximo)}
+% \lstinputlisting{flow/Dicnic.cpp}
 
-\subsection{Dinic (fluxo máximo)}
-\lstinputlisting{flow/Dicnic.cpp}
-
-% \subsection{Fluxo máximo com custo mínimo}
+% \subsection{ZkwFlow (Custo Mínimo)}
 % \lstinputlisting{flow/ZkwFlow.cpp}
 
 % \subsection{Emparelhamento Húngaro}
@@ -29,87 +33,81 @@
 % \subsection{Kuhn-Munkres (KM)}
 % \lstinputlisting{flow/KM.cpp}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  ESTRUTURAS DE DADOS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Estruturas de Dados}
+% \subsection{Compressão de Coordenadas}
+% \lstinputlisting{estruturaDeDados/coordinate-compression.cpp}
 
-\subsection{Compressão de Coordendadas}
-\lstinputlisting{estruturaDeDados/coordinate-compression.cpp}
+% \subsection{PBDS (Set Indexado)}
+% \lstinputlisting{estruturaDeDados/PBDS.cpp}
 
-\subsection{PBDS (Set Indexado)}
-\lstinputlisting{estruturaDeDados/PBDS.cpp}
+% \subsection{BIT (Fenwick Tree)}
+% \lstinputlisting{estruturaDeDados/BIT.cpp}
 
-\subsection{BIT (Fenwick Tree)}
-\lstinputlisting{estruturaDeDados/BIT.cpp}
+% \subsection{BIT 2D}
+% \lstinputlisting{estruturaDeDados/BIT2D.cpp}
 
-\subsection{BIT 2D}
-\lstinputlisting{estruturaDeDados/BIT2D.cpp}
+% \subsection{Union-Find (DSU)}
+% \lstinputlisting{estruturaDeDados/DSU.cpp}
 
-\subsection{Union-Find (DSU)}
-\lstinputlisting{estruturaDeDados/DSU.cpp}
-
-% \subsection{Union-Find persistente}
+% \subsection{Union-Find Persistente}
 % \lstinputlisting{estruturaDeDados/persistent_dsu.cpp}
 
-\subsection{Tabela Esparsa (RMQ em O(1))}
-\lstinputlisting{estruturaDeDados/Sparse Table.cpp}
+% \subsection{Sparse Table (RMQ)}
+% \lstinputlisting{estruturaDeDados/'Sparse Table.cpp'}
 
-\subsection{Segment Tree}
-\lstinputlisting{estruturaDeDados/segTree.cpp}
+% \subsection{Segment Tree}
+% \lstinputlisting{estruturaDeDados/segTree.cpp}
 
-\subsection{Lazy Segment Tree}
-\lstinputlisting{estruturaDeDados/lazySegTree.cpp}
+% \subsection{Lazy Segment Tree}
+% \lstinputlisting{estruturaDeDados/lazySegTree.cpp}
 
-\subsection{Segment Tree dinâmica}
-\lstinputlisting{estruturaDeDados/dinamicSegTree.cpp}
+% \subsection{Segment Tree Dinâmica}
+% \lstinputlisting{estruturaDeDados/dinamicSegTree.cpp}
 
-\subsection{Segment Tree 2D dinâmica}
-\lstinputlisting{estruturaDeDados/dinamicSegTree2D.cpp}
+% \subsection{Segment Tree 2D Dinâmica}
+% \lstinputlisting{estruturaDeDados/dinamicSegTree2D.cpp}
 
-% \subsection{Segment Tree persistente}
+% \subsection{Segment Tree Persistente}
 % \lstinputlisting{estruturaDeDados/persistent_seg_tree.cpp}
 
-% \subsection{Segment Tree temporal}
+% \subsection{Segment Tree Temporal}
 % \lstinputlisting{estruturaDeDados/TimeSegmentTree.cpp}
 
-% \subsection{Treap (BST aleatória)}
+% \subsection{Treap}
 % \lstinputlisting{estruturaDeDados/Treap.cpp}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  GRAFOS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Grafos}
+% \subsection{Ordenação Topológica}
+% \lstinputlisting{grafo/topologicalSort.cpp}
 
-\subsection{Ordenação Topológica}
-\lstinputlisting{grafo/topologicalSort.cpp}
+% \subsection{Dijkstra}
+% \lstinputlisting{grafo/Dijkstra.cpp}
 
-\subsection{Dijkstra}
-\lstinputlisting{grafo/Dijkstra.cpp}
+% \subsection{Bellman-Ford}
+% \lstinputlisting{grafo/Bellman-Ford.cpp}
 
-\subsection{Bellman-Ford}
-\lstinputlisting{grafo/Bellman-Ford.cpp}
+% \subsection{SPFA}
+% \lstinputlisting{grafo/SPFA.cpp}
 
-\subsection{SPFA}
-\lstinputlisting{grafo/SPFA.cpp}
+% \subsection{Floyd-Warshall}
+% \lstinputlisting{grafo/Floyd-Warshall.cpp}
 
-\subsection{Floyd-Warshall}
-\lstinputlisting{grafo/Floyd-Warshall.cpp}
-
-\subsection{Caminho Euleriano}
-\lstinputlisting{grafo/euler.cpp}
+% \subsection{Caminho Euleriano}
+% \lstinputlisting{grafo/euler.cpp}
 
 % \subsection{Componentes Biconexos (BCC)}
 % \lstinputlisting{grafo/BccVertex.cpp}
 
-\subsection{Componentes Fortemente Conexos (SCC)}
-\lstinputlisting{grafo/SCC.cpp}
+% \subsection{Componentes Fortemente Conexos (SCC)}
+% \lstinputlisting{grafo/SCC.cpp}
 
-\subsection{Árvore Geradora Mínima (MST)}
-\lstinputlisting{grafo/MST.cpp}
+% \subsection{Árvore Geradora Mínima (MST)}
+% \lstinputlisting{grafo/MST.cpp}
 
-% \subsection{Clique Maximal}
+% \subsection{Clique Maximal/Máximo}
 % \lstinputlisting{grafo/MaximalClique.cpp}
-
-% \subsection{Clique Máximo}
-% \lstinputlisting{grafo/MaximumClique.cpp}
 
 % \subsection{Ciclo de Média Mínima}
 % \lstinputlisting{grafo/Minimum Mean Cycle.cpp}
@@ -117,77 +115,73 @@
 % \subsection{AGM Manhattan}
 % \lstinputlisting{grafo/ManhattanMST.cpp}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  PD  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Programação Dinâmica}
+% \subsection{Edit Distance}
+% \lstinputlisting{PD/editDistance.cpp}
 
-\subsection{Edit Distance}
-\lstinputlisting{PD/editDistance.cpp}
+% \subsection{Problema da Mochila}
+% \lstinputlisting{PD/mochilaPD.cpp}
 
-\subsection{Problema da Mochila}
-\lstinputlisting{PD/mochilaPD.cpp}
+% \subsection{Longest Increasing Subsequence (LIS)}
+% \lstinputlisting{PD/lis.cpp}
 
-\subsection{Longest Increasing Subsequence (LIS)}
-\lstinputlisting{PD/lis.cpp}
+% \subsection{Bitmask DP}
+% \lstinputlisting{PD/bitmask.cpp}
 
-\subsection{Máscara de Bits}
-\lstinputlisting{PD/bitmask.cpp}
-
-% \subsection{PD em dígitos}
+% \subsection{Digit DP}
 % \lstinputlisting{PD/digitDP.cpp}
 
 % \subsection{SOS DP}
 % \lstinputlisting{PD/SOSDP.cpp}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  MATEMÁTICA  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Matemática}
+% \subsection{Fórmulas}
+% \lstinputlisting{matematica/Formula.txt}
 
-\subsection{Fórmulas}
-\lstinputlisting{matematica/Formula.txt}
+% \subsection{MDC \& MMC}
+% \lstinputlisting{matematica/mdc_mmc.cpp}
 
-\subsection{MDC \& MMC}
-\lstinputlisting{matematica/mdc_mmc.cpp}
+% \subsection{Exponenciação Binária}
+% \lstinputlisting{matematica/expo_bin.cpp}
 
-\subsection{Exponenciação Binária}
-\lstinputlisting{matematica/expo_bin.cpp}
-
-% \subsection{Soma e multiplicação com \_\_int128}
+% \subsection{Soma e Multiplicação com __int128}
 % \lstinputlisting{matematica/llladdmul.cpp}
 
-\subsection{Primos}
-\lstinputlisting{matematica/Primes.txt}
+% \subsection{Lista de Primos}
+% \lstinputlisting{matematica/Primes.txt}
 
-\subsection{Crivo de Eratóstenes}
-\lstinputlisting{matematica/crivo.cpp}
+% \subsection{Crivo de Eratóstenes}
+% \lstinputlisting{matematica/crivo.cpp}
 
-\subsection{Fatoração Prima}
-\lstinputlisting{matematica/fatoracaoPrima.cpp}
+% \subsection{Fatoração Prima}
+% \lstinputlisting{matematica/fatoracaoPrima.cpp}
 
-% \subsection{Pares coprimos}
+% \subsection{Pares Coprimos}
 % \lstinputlisting{matematica/coprime.cpp}
 
-% \subsection{Exponenciação rápida de matrizes}
+% \subsection{Exponenciação de Matrizes}
 % \lstinputlisting{matematica/MatPow.cpp}
 
-\subsection{Função Totiente de Euler (φ)}
-\lstinputlisting{matematica/phi.cpp}
+% \subsection{Função Totiente de Euler (phi)}
+% \lstinputlisting{matematica/phi.cpp}
 
 % \subsection{Números de Catalan}
 % \lstinputlisting{matematica/CatalanNumber.cpp}
 
-% \subsection{Teste de primalidade Miller-Rabin}
+% \subsection{Miller-Rabin & Pollard-Rho}
 % \lstinputlisting{matematica/MillerRabin.cpp}
 
-% \subsection{Fatoração Pollard-Rho}
-% \lstinputlisting{matematica/PollardRho.cpp}
-
-% \subsection{Multiplicação O(1) com \_\_int128}
+% \subsection{Multiplicação O(1)}
 % \lstinputlisting{matematica/O(1)mul.cpp}
 
-\subsection{Problema de Josefo (Josephus)}
-\lstinputlisting{matematica/josephus.cpp}
+% \subsection{Problema de Josephus}
+% \lstinputlisting{matematica/josephus.cpp}
 
-% \subsection{Soma harmônica}
+% \subsection{Soma Harmônica}
 % \lstinputlisting{matematica/HarmonicSum.cpp}
 
 % \subsection{Contagem de Pólya}
@@ -202,182 +196,112 @@
 % \subsection{Algoritmo de Euclides Estendido}
 % \lstinputlisting{matematica/Exgcd.cpp}
 
-\subsection{Teorema Chinês do Resto (CRT)}
-\lstinputlisting{matematica/CRT.cpp}
+% \subsection{Teorema Chinês do Resto (CRT)}
+% \lstinputlisting{matematica/CRT.cpp}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  STRINGS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Strings}
+% \subsection{Suffix Array}
+% \lstinputlisting{string/SA.cpp}
 
-\subsection{Suffix Array}
-\lstinputlisting{string/SA.cpp}
+% \subsection{KMP}
+% \lstinputlisting{string/KMP.cpp}
 
-\subsection{KMP}
-\lstinputlisting{string/KMP.cpp}
-
-% \subsection{Hash simples}
+% \subsection{String Hashing}
 % \lstinputlisting{string/SingleHash.cpp}
 
-% \subsection{Hash duplo}
-% \lstinputlisting{string/DoubleHash.cpp}
+% \subsection{Rabin-Karp}
+% \lstinputlisting{string/RabinKarp.cpp}
 
-\subsection{Rabin-Karp}
-\lstinputlisting{string/RabinKarp.cpp}
+% \subsection{Trie}
+% \lstinputlisting{string/Trie.cpp}
 
-\subsection{Trie}
-\lstinputlisting{string/Trie.cpp}
+% \subsection{Função Z}
+% \lstinputlisting{string/Zfunction.cpp}
 
-\subsection{Função Z}
-\lstinputlisting{string/Zfunction.cpp}
-
-% \subsection{Rotação mínima}
+% \subsection{Rotação Mínima}
 % \lstinputlisting{string/MinRotation.cpp}
 
-\subsection{Manacher}
-\lstinputlisting{string/Manacher.cpp}
+% \subsection{Manacher}
+% \lstinputlisting{string/Manacher.cpp}
 
-% \subsection{Árvore de palíndromos (PalTree)}
+% \subsection{Palindrome Tree}
 % \lstinputlisting{string/PalTree.cpp}
 
-% \subsection{Subsequências distintas}
+% \subsection{Subsequências Distintas}
 % \lstinputlisting{string/DistinctSubsequence.cpp}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  ÁRVORES  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Árvores}
+% \subsection{LCA (Menor Ancestral Comum)}
+% \lstinputlisting{arvore/LCA.cpp}
 
-\subsection{LCA (Menor Ancestral Comum)}
-\lstinputlisting{arvore/LCA.cpp}
-
-% \subsection{Hash de árvore}
+% \subsection{Tree Hash}
 % \lstinputlisting{arvore/TreeHash.cpp}
 
 % \subsection{Decomposição Pesada-Leve (HLD)}
 % \lstinputlisting{arvore/heavyLightDecomposition.cpp}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  GEOMETRIA  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Geometria}
-
-% \subsection{Definições 2D}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Geometria Computacional}
+% \subsection{Estruturas Base (2D / 3D / Reta)}
 % \lstinputlisting{geometria/2DDefinition.cpp}
 
-% \subsection{Definições 3D}
-% \lstinputlisting{geometria/3DDefinition.cpp}
+% \subsection{Operações Básicas}
+% \lstinputlisting{geometria/Basic.cpp}
 
-% \subsection{Definição de reta}
-% \lstinputlisting{geometria/LineDefinition.cpp}
-
-\subsection{Operações básicas}
-\lstinputlisting{geometria/Basic.cpp}
-
-% \subsection{Área do polígono}
+% \subsection{Área e Ponto em Polígono}
 % \lstinputlisting{geometria/PolygonArea.cpp}
 
-% \subsection{Ponto dentro do polígono}
-% \lstinputlisting{geometria/IsPointInPolygon.cpp}
-
-\subsection{Fecho convexo}
-\lstinputlisting{geometria/ConvexHull.cpp}
+% \subsection{Convex Hull (Fecho Convexo)}
+% \lstinputlisting{geometria/ConvexHull.cpp}
 
 % \subsection{Soma de Minkowski}
 % \lstinputlisting{geometria/MinkowskiSum.cpp}
 
-% \subsection{Distância mais curta entre polígonos}
-% \lstinputlisting{geometria/PolygonDistance.cpp}
-
-% \subsection{Truque do fecho convexo (CHT)}
+% \subsection{Convex Hull Trick (CHT)}
 % \lstinputlisting{geometria/ConvexHullTrick.cpp}
 
-% \subsection{Ordenação polar}
+% \subsection{Ordenação Polar}
 % \lstinputlisting{geometria/PolarSort.cpp}
 
-% \subsection{Teorema de Pick}
-% \lstinputlisting{geometria/PickTheorm.cpp}
-
-% \subsection{Par de pontos mais próximos}
-% \lstinputlisting{geometria/ShortestPair.cpp}
-
-% \subsection{Par de pontos mais distantes}
-% \lstinputlisting{geometria/FarthestPair.cpp}
-
-% \subsection{Mediana geométrica (Weiszfeld)}
-% \lstinputlisting{geometria/Weiszfeld.cpp}
-
-% \subsection{Linha de varredura}
+% \subsection{Sweep Line (Linha de Varredura)}
 % \lstinputlisting{geometria/SweepLine.cpp}
 
-% \subsection{Interseção círculo-polígono}
-% \lstinputlisting{geometria/CircleIntersect.cpp}
-
-% \subsection{Tangentes a dois círculos}
-% \lstinputlisting{geometria/TangantLineOf2Circle.cpp}
-
-% \subsection{Interseção de dois círculos}
-% \lstinputlisting{geometria/PCIntersect.cpp}
-
-% \subsection{Cobertura de círculo}
-% \lstinputlisting{geometria/CircleCover.cpp}
-
-% \subsection{Círculo mínimo envolvente}
+% \subsection{Mec / Meb (Círculo / Esfera Mínima)}
 % \lstinputlisting{geometria/Mec.cpp}
 
-% \subsection{Esfera mínima envolvente}
-% \lstinputlisting{geometria/Mec.cpp}
-
-% \subsection{Retângulo envolvente de área mínima/máxima}
-% \lstinputlisting{geometria/MinMaxEnclosingRectangle.cpp}
-
-% \subsection{Interseção de semiplanos}
+% \subsection{Interseção de Semiplanos}
 % \lstinputlisting{geometria/HalfPlaneIntersection.cpp}
 
-% \subsection{União de polígonos}
-% \lstinputlisting{geometria/PolyUnion.cpp}
-
-% \subsection{Cobertura de polígonos}
-% \lstinputlisting{geometria/PolyCover.cpp}
-
-% \subsection{Pontos notáveis do triângulo}
-% \lstinputlisting{geometria/Triangle.cpp}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  ORDENAÇÃO  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Algoritmos de Ordenação}
+% \subsection{Insertion Sort}
+% \lstinputlisting{ordenacao/insertionSort.cpp}
 
-\subsection{Insertion Sort}
-\lstinputlisting{ordenacao/insertionSort.cpp}
+% \subsection{Merge Sort}
+% \lstinputlisting{ordenacao/mergeSort.cpp}
 
-\subsection{Merge Sort}
-\lstinputlisting{ordenacao/mergeSort.cpp}
+% \subsection{Quicksort}
+% \lstinputlisting{ordenacao/quicksort.cpp}
 
-\subsection{Quicksort}
-\lstinputlisting{ordenacao/quicksort.cpp}
+% \subsection{Counting Sort}
+% \lstinputlisting{ordenacao/countingSort.cpp}
 
-\subsection{Counting Sort}
-\lstinputlisting{ordenacao/countingSort.cpp}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Problemas Especiais e Heurísticas}
+% \subsection{Torre de Hanoi}
+% \lstinputlisting{problemasEspeciais/hanoiTower.cpp}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  PROBLEMAS ESPECIAIS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Problemas Especiais}
+% \subsection{Simulated Annealing}
+% \lstinputlisting{problemasEspeciais/'Simulated annealing.cpp'}
 
-\subsection{Torre de Hanoi}
-\lstinputlisting{problemasEspeciais/hanoiTower.cpp}
-
-% \subsection{Contagem de substrings}
-% \lstinputlisting{problemasEspeciais/ContainString.cpp}
-
-% \subsection{Ordem parcial 3D}
-% \lstinputlisting{problemasEspeciais/Partiallyordered3D.cpp}
-
-% \subsection{LCS cíclico}
-% \lstinputlisting{problemasEspeciais/CyclicLCS.cpp}
-
-% \subsection{Simulated Annealing (têmpera simulada)}
-% \lstinputlisting{problemasEspeciais/Simulated annealing.cpp}
-
-% \subsection{Raiz quadrada discreta}
+% \subsection{Raiz Quadrada Discreta}
 % \lstinputlisting{problemasEspeciais/DiscreteSqrt.cpp}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  PAPEL MILIMETRADO PARA RASCUNHO  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PAPEL MILIMETRADO PARA RASCUNHO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \onecolumn
 \centering
 \vspace{1cm}
