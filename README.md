@@ -1,8 +1,8 @@
 <p align="center" style="margin: 24px;">
   <picture>
-    <source media="(prefers-color-scheme: dark)" width="200" srcset="assets/logo_dark.png">
-    <source media="(prefers-color-scheme: light)" width="200" srcset="assets/logo_light.png">
-    <img alt="Oktoplus" width="200" src="assets/logo_white.png">
+    <source media="(prefers-color-scheme: dark)" width="200" srcset=".assets/logo_dark.png">
+    <source media="(prefers-color-scheme: light)" width="200" srcset=".assets/logo_light.png">
+    <img alt="Oktoplus" width="200" src=".assets/logo_white.png">
   </picture>
 </p>
 
