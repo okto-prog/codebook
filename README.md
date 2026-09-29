@@ -51,4 +51,4 @@ O projeto é estruturado de forma modular nas seguintes pastas:
 ##  Integrantes e Contribuidores
 
 O desenvolvimento e a manutenção deste projeto são realizados pelos coordenadores e membros da equipe Oktoplus.
-Agradecemos ao CEFET-MG, pelo apoio institucional e fomento ao projeto de Programação Competitiva.
+Agradecemos ao CEFET-MG e à Diretoria de Extensão e Desenvolvimento Comunitário (DEDC) pelo apoio institucional e fomento ao projeto de Programação Competitiva.
